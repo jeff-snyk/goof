@@ -1,4 +1,4 @@
-FROM node:dubnium-buster-slim
+FROM node:14.17.3-buster-slim
 RUN apt-get update &&\
     apt-get install -y git vim &&\
     rm -rf /var/lib/apt/lists/*
